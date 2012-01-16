@@ -1,0 +1,25 @@
+<html>
+  <head>
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" charset="utf-8"/>
+    <script src="js/jquery-1.7.1.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/bubble-box.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" charset="utf-8">
+      $(document).ready(function(){
+          console.log("ready for bubble-box");
+
+          var canvas = $("canvas")[0];
+          
+          new com.ee.ui.BubbleBox(canvas);
+  	});
+    </script>
+  </head>
+  <body>
+    <header>
+    <h1>bubble-box Example</h1>
+    </header>
+    <div id="content">
+
+      <canvas width="300" height="300"/>
+    </div>
+  </body>
+</html>

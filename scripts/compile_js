@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "compiling src"
+coffee --compile --output example/js/ src/
+echo "done"
